@@ -8,6 +8,13 @@
 
 }
 
+
+
+
+
+
+
+
 body {
     font-family: "Roboto" sans-serif;
     }
@@ -64,14 +71,14 @@ a {
 
 /* main */
 
-.main-section-button {
+.hero-button {
     background-color: var(--blue-main);
     border: none;
     width: 216px;
     height: 50px;
 }
 
-.main-section {
+.hero {
     background-color: var(--dark-main);
 }
 
