@@ -8,14 +8,10 @@
 
 }
 
-
-
-
-
-
-
-
 body {
+    font-size: 14px ;
+    font-weight: 400 ;
+    line-height: calc(24 / 14) ;
     font-family: "Roboto" sans-serif;
     }
 
@@ -39,27 +35,23 @@ ul {
 }
 
 
-.header-nav {
-    font-family: "Roboto";
-        font-size: 14px;
+.header-nav {    
         font-weight: 500;
-        line-height: 16px;
+        line-height: calc(16 / 14);
         letter-spacing: 2%;
 }
 
 .header-list-item {
-font-family: "Roboto";
-    font-size: 14px;
     font-weight: 500;
-    line-height: 16px;
+    line-height: calc(16 / 14) ;
     letter-spacing: 2%;
 }
 
 .list-item-link {
-    font-family: "Roboto";
-        font-size: 14px;
+    
+    
         font-weight: 500;
-        line-height: 16px;
+    
         letter-spacing: 2%;
     }
 
@@ -71,14 +63,14 @@ a {
 
 /* main */
 
-.hero-button {
+.main-section-button {
     background-color: var(--blue-main);
     border: none;
     width: 216px;
     height: 50px;
 }
 
-.hero {
+.main-section {
     background-color: var(--dark-main);
 }
 
@@ -109,6 +101,6 @@ footer {
 }
 
 
-footer>address>ul>li>a {
+.footer-address-list-item-link {
     color: var(--gray-footer);
 }
