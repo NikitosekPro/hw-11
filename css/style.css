@@ -22,7 +22,7 @@ body {
 
 
 /* header */
-ul {
+.advantages-list, .about-list, .team-list, .footer-address-list{
     list-style: none;
 }
 
@@ -56,7 +56,7 @@ ul {
     }
 
 
-a {
+a:not(footer) {
     text-decoration: none;
     color: black;
 }
@@ -76,7 +76,7 @@ a {
 
 
 
-h1 {
+h.hero-heading {
     color: var(--white-main);
 }
 
@@ -95,7 +95,7 @@ address {
     font-style: normal;
 }
 
-footer {
+.footer {
     background-color: var(--dark-main);
     color: var(--white-main);
 }
